@@ -1,1 +1,1 @@
-# eslint-plugin-demo
+# eslint-plugin-plugintutorial

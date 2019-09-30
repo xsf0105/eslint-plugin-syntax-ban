@@ -10,7 +10,7 @@ module.exports = {
     configs: {
         recommended: {
             rules: {
-                'demo/no-console-time': 2, // 可以省略 eslint-plugin 前缀
+                'plugintutorial/no-console-time': 2, // 可以省略 eslint-plugin 前缀
             },
         },
     },

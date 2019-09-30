@@ -1,9 +1,9 @@
 {
-  "name": "eslint-plugin-demo",
-  "version": "0.0.1",
+  "name": "eslint-plugin-plugintutorial",
+  "version": "0.0.2",
   "repository": {
     "type": "git",
-    "url": "https://github.com/allan2coder/eslint-plugin-demo"
+    "url": "https://github.com/allan2coder/eslint-plugin-plugintutorial"
   },
   "description": "custom methods rules",
   "keywords": [
