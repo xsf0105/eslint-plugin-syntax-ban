@@ -10,7 +10,7 @@ module.exports = {
     configs: {
         recommended: {
             rules: {
-                '@fe-base/beibei/no-console-time': 2,
+                'demo/no-console-time': 2, // 可以省略 eslint-plugin 前缀
             },
         },
     },
