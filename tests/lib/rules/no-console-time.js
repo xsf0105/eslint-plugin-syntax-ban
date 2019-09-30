@@ -1,7 +1,3 @@
-/**
- * @fileoverview no console time
- * @author xiasheng.lin
- */
 'use strict';
 
 // ------------------------------------------------------------------------------
@@ -21,6 +17,7 @@ let ruleTester = new RuleTester({
         ecmaVersion: 10,
     },
 });
+
 ruleTester.run('no-console-time', rule, {
 
     valid: [
