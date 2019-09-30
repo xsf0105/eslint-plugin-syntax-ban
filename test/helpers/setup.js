@@ -1,0 +1,2 @@
+// Init
+require('browser-env')();
