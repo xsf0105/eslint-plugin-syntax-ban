@@ -1,4 +1,5 @@
 # eslint-plugin-plugintutorial
+- 本文用于讲解如何自己开发 `eslint` 和如何在项目中使用。[详细讲解]()
 
 #### 如何使用？
 安装包
