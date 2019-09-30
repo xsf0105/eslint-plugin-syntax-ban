@@ -2,7 +2,7 @@
 
 - 本文用于讲解如何自己开发 `eslint` 插件以及如何在项目中使用。[TODO:详细讲解]()
 
-#### 如何使用？
+#### 本插件如何使用？
 安装包
 ```js
 npm install eslint-plugin-plugintutorial -D
@@ -25,3 +25,7 @@ module.exports = {
     ]
 };
 ```
+
+#### 如何开发一个你自己的 eslint 插件
+
+[TODO:详细讲解]()
