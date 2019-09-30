@@ -30,6 +30,7 @@ module.exports = {
 #### 本插件用途
 在项目禁用 `console.time()` 方法
 
+
 ## 如何开发一个你自己的 eslint 插件
 
 [TODO:详细讲解]()
