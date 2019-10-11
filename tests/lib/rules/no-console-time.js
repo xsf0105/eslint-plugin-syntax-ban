@@ -4,7 +4,7 @@
 // Requirements
 // ------------------------------------------------------------------------------
 
-let rule = require('../../../src/rules/no-console-time');
+let rule = require('../../../lib/rules/no-console-time');
 
 let RuleTester = require('eslint').RuleTester;
 

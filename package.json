@@ -1,43 +1,24 @@
 {
-  "name": "eslint-plugin-plugintutorial",
-  "version": "0.1.3",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/allan2coder/eslint-plugin-plugintutorial"
-  },
-  "description": "custom methods rules",
+  "name": "eslint-plugin-demofortutorial",
+  "version": "0.0.1",
+  "description": "no console time",
   "keywords": [
     "eslint",
-    "eslint-rules",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "main": "src/index.js",
+  "author": "Allan91",
+  "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests --recursive",
-    "env": "npm install && npm update",
-    "build": "node -v",
-    "eslint": "node_modules/.bin/eslint src test",
-    "eslint:fix": "node_modules/.bin/eslint src test --fix",
-    "test:coverage": "node_modules/.bin/nyc node_modules/.bin/ava test/*.js",
-    "test:report": "node_modules/.bin/nyc report --reporter=text-summary",
-    "prepublishOnly": "lib3 check",
-    "postpublish": "lib3 postpublish"
-  },
-  "verifier": {
-    "ignore": [
-      "build"
-    ]
+    "test": "mocha tests --recursive"
   },
   "dependencies": {},
   "devDependencies": {
-    "ava": "^0.24.0",
     "eslint": "^5.16.0",
-    "mocha": "^5.0.1",
-    "nyc": "^11.4.1"
+    "mocha": "^3.1.2"
   },
-  "nyc": {},
   "engines": {
     "node": ">=0.10.0"
-  }
+  },
+  "license": "ISC"
 }

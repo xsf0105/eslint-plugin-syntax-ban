@@ -1,2 +1,0 @@
-// Init
-require('browser-env')();

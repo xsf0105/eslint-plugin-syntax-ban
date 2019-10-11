@@ -1,36 +1,51 @@
-# eslint-plugin-plugintutorial
+# eslint-plugin-demo
 
-- 本文用于讲解如何自己开发 `eslint` 插件以及如何在项目中使用
+no console time
 
-## 本插件如何使用？
+## Installation
 
-#### 安装包
-```js
-npm install eslint-plugin-plugintutorial -D
+You'll first need to install [ESLint](http://eslint.org):
+
+```
+$ npm i eslint --save-dev
 ```
 
-#### 项目中配置
-`.eslintrc.js`
-```js
-module.exports = {
-    extends: [
-        'eslint:recommended',
-        'plugin:eslint-plugin-plugintutorial/recommended'
-    ],
-    env: {
-        node: true,
-        browser: true
-    },
-    plugins: [
-        'plugintutorial'
+Next, install `eslint-plugin-demo`:
+
+```
+$ npm install eslint-plugin-demo --save-dev
+```
+
+**Note:** If you installed ESLint globally (using the `-g` flag) then you must also install `eslint-plugin-demo` globally.
+
+## Usage
+
+Add `demo` to the plugins section of your `.eslintrc` configuration file. You can omit the `eslint-plugin-` prefix:
+
+```json
+{
+    "plugins": [
+        "demo"
     ]
-};
+}
 ```
 
-#### 本插件用途
-在项目禁用 `console.time()` 方法
+
+Then configure the rules you want to use under the rules section.
+
+```json
+{
+    "rules": {
+        "demo/rule-name": 2
+    }
+}
+```
+
+## Supported Rules
+
+* Fill in provided rules here
 
 
-## 如何开发一个你自己的 eslint 插件
 
-[TODO:详细讲解]()
+
+
