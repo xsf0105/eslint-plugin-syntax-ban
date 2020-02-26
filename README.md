@@ -21,7 +21,7 @@ module.exports = {
     ],
     plugins: [
         'demofortutorial' // 省略 `eslint-plugin-` 前缀
-    ],`
+    ],
     // rules 中对应 eslint 插件中的 `rules`，不同于上面 extends、可以单独配置某一条 `rule` 规则
     // rules: {
     //     "demofortutorial/no-object-values": "error"
