@@ -20,8 +20,8 @@ module.exports = {
         'plugin:eslint-plugin-demofortutorial/recommended' // 这里对应的是 eslint 插件中的 configs，如： `recommended`、`no-2017`等，用于集中管理配置多个 `rule` 规则
     ],
     plugins: [
-        'demofortutorial'
-    ],
+        'demofortutorial' // 省略 `eslint-plugin-` 前缀
+    ],`
     // rules 中对应 eslint 插件中的 `rules`，不同于上面 extends、可以单独配置某一条 `rule` 规则
     // rules: {
     //     "demofortutorial/no-object-values": "error"
