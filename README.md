@@ -7,13 +7,13 @@
 
 ## 本插件如何使用？
 安装包
-```
+```bash
 npm install eslint-plugin-demofortutorial -D
 ```
 
 ## 项目中配置
 `.eslintrc.js`
-```
+```js
 module.exports = {
     extends: [
         'eslint:recommended',
