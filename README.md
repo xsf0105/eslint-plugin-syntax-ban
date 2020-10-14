@@ -17,7 +17,6 @@ npm install eslint-plugin-syntax-ban -D
 ```diff
 module.exports = {
     extends: [
-        'eslint:recommended',
 +        'plugin:eslint-plugin-syntax-ban/recommended'
     ],
 +    plugins: [
@@ -29,10 +28,9 @@ module.exports = {
 或单独使用插件中的条规则：
 ```diff
 module.exports = {
-    extends: [
-        'eslint:recommended',
-+        'plugin:eslint-plugin-syntax-ban/recommended'
-    ],
++    plugins: [
++        'syntax-ban' // 可省略 `eslint-plugin-` 前缀
++    ],
 +    rules: {
 +        "syntax-ban/no-object-values": "error",
 +    }
