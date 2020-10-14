@@ -6,8 +6,12 @@
 在前端工程中禁用 `console.time()` 和 `Object.value()` 方法。
 
 ## How to use
-安装包
+
 ```bash
+yan add eslint-pulgin-syntax-ban
+
+or
+
 npm install eslint-plugin-syntax-ban -D
 ```
 
