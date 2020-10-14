@@ -1,13 +1,13 @@
 {
-  "name": "eslint-plugin-demofortutorial",
-  "version": "0.0.3",
-  "description": "forbidden something",
+  "name": "eslint-plugin-syntax-ban",
+  "version": "0.0.4",
+  "description": "forbidden syntax",
   "keywords": [
     "eslint",
     "eslintplugin",
     "eslint-plugin"
   ],
-  "author": "Allan91",
+  "author": "xsf",
   "main": "lib/index.js",
   "scripts": {
     "test": "mocha tests --recursive"
