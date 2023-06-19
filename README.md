@@ -3,7 +3,7 @@
 * 本文用于讲解如何禁用 JS 语法的 eslint plugin 的实现，以及使用。[详细讲解](https://juejin.im/post/5d91be23f265da5ba532a07e)
 
 ## Example
-在前端工程中禁用 `console.time()` 和 `Object.value()` 方法。
+在前端工程中禁用 `console.time()` 和 `Object.value()` 方法。支持开发者继续拓展～
 
 ## How to use
 
